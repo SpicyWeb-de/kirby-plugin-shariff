@@ -1,8 +1,8 @@
 # Shariff plugin
 
-A plugin for [Kirby CMS](http://getkirby.com) to include [Shariff social media buttons](http://ct.de/-2467514) with ease.
+### A plugin for [Kirby CMS](http://getkirby.com) to include [Shariff social media buttons](http://ct.de/-2467514) with ease.
 
-Shariff enables website users to share their favorite content without compromising their privacy.
+#### Shariff enables website users to share their favorite content without compromising their privacy.
 
 **NOTE: In the current release from c't shariff supports only 3 Languages: en, de, es.**
 
