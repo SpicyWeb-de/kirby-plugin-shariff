@@ -1,0 +1,17 @@
+{
+	"cache": {
+		"ttl": 60
+	},
+	"domain": "domain.tld",
+	"services": [
+		"GooglePlus",
+		"Twitter",
+		"Facebook",
+		"LinkedIn",
+		"Reddit",
+		"StumbleUpon",
+		"Flattr",
+		"Pinterest",
+		"Xing"
+	]
+}
