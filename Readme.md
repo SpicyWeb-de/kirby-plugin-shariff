@@ -1,4 +1,4 @@
-# Piwik plugin
+# Shariff plugin
 
 A plugin for [Kirby CMS](http://getkirby.com) to include [Shariff social media buttons](http://ct.de/-2467514) with ease.
 
