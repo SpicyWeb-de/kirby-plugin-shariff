@@ -21,15 +21,15 @@
 Default configuration for the shariff frontend is set as shown in site/config/config.php. There is no need to configure
 any settings as long as you don't want to change them.
 
-* **language** [en]: set locale code of your page if page is not multilingual (available: en, de, es)
+* **language** [en]: set locale code of your page if page is not multilingual (available: bg, de, en, es, fi, hr, hu, ja, ko, no, pl, pt, ro, ru, sk, sl, sr, sv, tr, zh)
 * **page.uses_jquery**: set true, if your page already uses jquery. Otherwise it will be included.
 * **page.uses_fa**: set true, if your page already uses fontawesome. Otherwise it will be included.
 * **shariff.url**: path to shariff asset files
 * **shariff.use_backend**: true, if you want to use the shariff backend to show the count of shares for your pages
 * **shariff.orientation**: horizontal or vertical
 * **shariff.referrer_check**: String to append to the shared urls
-* **shariff.services**: array of used service plugins (available: twitter, facebook, googleplus, whatsapp, mail, info)
-* **shariff.theme**: standard or dark
+* **shariff.services**: array of used service plugins (available: twitter, facebook, googleplus, linkedin, pinterest, xing, whatsapp, mail, info)
+* **shariff.theme**: standard, grey or white
 * **shariff.info**: Information page about shariff. default: c't article about shariff. If set, it will be resolved using url(), so you can set it to any kirby-internal page with own content
 * 
 #### Shariff Backend

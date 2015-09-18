@@ -1,5 +1,25 @@
 # CHANGELOG
 
+## 1.1.0 - 2015-05-19
+
+* Added `CURL_HTTP_VERSION_2_0`
+* The PHP stream wrapper handler now sets `allow_self_signed` to `false` to
+  match the cURL handler when `verify` is set to `true` or a certificate file.
+* Ensuring that a directory exists before using the `save_to` option.
+* Response protocol version is now correctly extracted from a response.
+* Fixed a bug in which the result of `CurlFactory::retryFailedRewind` did not
+  return an array.
+
+## 1.0.7 - 2015-03-29
+
+* PHP 7 fixes.
+
+## 1.0.6 - 2015-02-26
+
+* Bug fix: futures now extend from React's PromiseInterface to ensure that they
+  are properly forwarded down the promise chain.
+* The multi handle of the CurlMultiHandler is now created lazily.
+
 ## 1.0.5 - 2014-12-10
 
 * Adding more error information to PHP stream wrapper exceptions.

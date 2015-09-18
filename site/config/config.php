@@ -13,9 +13,9 @@ c::set('shariff.url', 'assets/plugins/shariff');// path to shariff files
 c::set('shariff.use_backend', true);
 c::set('shariff.orientation', 'horizontal');    // horizontal, vertical
 c::set('shariff.referrer_check', '');           // String to append to the shared url
-// used service plugins: twitter, facebook, googleplus, whatsapp, mail, info
+// used service plugins: twitter, facebook, googleplus, linkedin, pinterest, xing, whatsapp, mail, info
 c::set('shariff.services', array('twitter', 'facebook', 'googleplus', 'info'));
-c::set('shariff.theme', 'standard');            // standard, dark
+c::set('shariff.theme', 'standard');            // standard, grey, white
 //c::set('shariff.info', 'shariff');            // Information page about shariff. default: c't article about shariff
                                                 // If set, it will be resolved using url(), so you can set it
                                                 // to any kirby-internal page with own content
