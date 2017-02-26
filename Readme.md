@@ -10,7 +10,7 @@
 
 * Download the complete source code
 * Copy assets/plugins/shariff to your pages asset directory
-  * If you use another path, make shure to change the config variable shariff.url
+  * If you use another path, make sure to change the config variable shariff.url
 * Copy site/plugins/shariff to your pages plugin directory
 * Copy the content of site/config/config.php to your config file and adjust them as you like
 
@@ -44,7 +44,7 @@ Furthermore you can adjust the TTL of caching for the counts and requested servi
 
 * Include the shariff-stylesheet in your pages head:
 `<?php echo css(shariff_css()) ?>`
-* Include the shariff-stylesheet at the end of your page, anywhere before </body>
+* Include the shariff-javascript at the end of your page, anywhere before </body>
 `<?php echo js(shariff_js()) ?>`
 * Use the buttons in your templates wherever you like
 `<?php echo shariff_buttons() ?>`
